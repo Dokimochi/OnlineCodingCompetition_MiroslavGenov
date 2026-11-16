@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>aspnet-OnlineCodingCompetition.Web-f6929b2f-f588-4352-a049-4fb6c84304b4</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="8.0.34" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="8.0.34" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.34">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\OnlineCodingCompetition.Data\OnlineCodingCompetition.Data.csproj" />
+    <ProjectReference Include="..\OnlineCodingCompetition.Services\OnlineCodingCompetition.Services.csproj" />
+  </ItemGroup>
+
+</Project>
