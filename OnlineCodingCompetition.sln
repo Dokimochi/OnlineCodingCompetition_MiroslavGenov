@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{70BA40D6-BE0B-4A84-9AFF-77B47F55BDCF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineCodingCompetition.Data", "src\OnlineCodingCompetition.Data\OnlineCodingCompetition.Data.csproj", "{4770E20B-197D-4CB8-B7DC-A143CEC91F92}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineCodingCompetition.Services", "src\OnlineCodingCompetition.Services\OnlineCodingCompetition.Services.csproj", "{E7A23F48-58E3-46DF-B666-EE34A3536F4C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineCodingCompetition.Web", "src\OnlineCodingCompetition.Web\OnlineCodingCompetition.Web.csproj", "{1B2A69D9-0B0D-40FB-BC2C-1D961986A3CE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{C7118F30-2F4F-44C9-A984-4FADC51D0ED9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineCodingCompetition.Services.Tests", "tests\OnlineCodingCompetition.Services.Tests\OnlineCodingCompetition.Services.Tests.csproj", "{3268C7B2-B09C-4BF0-ABD1-B021B0F7F824}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4770E20B-197D-4CB8-B7DC-A143CEC91F92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4770E20B-197D-4CB8-B7DC-A143CEC91F92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4770E20B-197D-4CB8-B7DC-A143CEC91F92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4770E20B-197D-4CB8-B7DC-A143CEC91F92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7A23F48-58E3-46DF-B666-EE34A3536F4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7A23F48-58E3-46DF-B666-EE34A3536F4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7A23F48-58E3-46DF-B666-EE34A3536F4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7A23F48-58E3-46DF-B666-EE34A3536F4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B2A69D9-0B0D-40FB-BC2C-1D961986A3CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B2A69D9-0B0D-40FB-BC2C-1D961986A3CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B2A69D9-0B0D-40FB-BC2C-1D961986A3CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B2A69D9-0B0D-40FB-BC2C-1D961986A3CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3268C7B2-B09C-4BF0-ABD1-B021B0F7F824}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3268C7B2-B09C-4BF0-ABD1-B021B0F7F824}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3268C7B2-B09C-4BF0-ABD1-B021B0F7F824}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3268C7B2-B09C-4BF0-ABD1-B021B0F7F824}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4770E20B-197D-4CB8-B7DC-A143CEC91F92} = {70BA40D6-BE0B-4A84-9AFF-77B47F55BDCF}
+		{E7A23F48-58E3-46DF-B666-EE34A3536F4C} = {70BA40D6-BE0B-4A84-9AFF-77B47F55BDCF}
+		{1B2A69D9-0B0D-40FB-BC2C-1D961986A3CE} = {70BA40D6-BE0B-4A84-9AFF-77B47F55BDCF}
+		{3268C7B2-B09C-4BF0-ABD1-B021B0F7F824} = {C7118F30-2F4F-44C9-A984-4FADC51D0ED9}
+	EndGlobalSection
+EndGlobal
